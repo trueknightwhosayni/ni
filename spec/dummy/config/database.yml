@@ -1,0 +1,19 @@
+development: &development
+  adapter: postgresql
+  encoding: unicode
+  database: ni_gem_dev
+  pool: 10
+  username: postgres
+  password:
+  host: localhost
+  min_messages: WARNING
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ni_gem_test
+  pool: 10
+  username: postgres
+  password:
+  host: localhost
+  min_messages: WARNING
