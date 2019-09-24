@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ni (0.1.0)
+    ni (0.1.1)
 
 GEM
   remote: https://rubygems.org/
